@@ -1,0 +1,346 @@
+[67.003965378] 2018-07-30 19:12:26,438 - INFO - launcher: Starting sanity checks
+[68.003892899] 2018-07-30 19:12:26,439 - INFO - launcher: Checking for Python 3.5+
+[68.003892899] 2018-07-30 19:12:26,439 - INFO - launcher: Checking console encoding
+[68.003892899] 2018-07-30 19:12:26,439 - INFO - launcher: Setting console encoding to UTF-8
+[69.004058838] 2018-07-30 19:12:26,440 - INFO - launcher: Ensuring we're in the right environment
+[70.003986359] 2018-07-30 19:12:26,441 - INFO - launcher: Adding local bins/ folder to path
+[71.004152298] 2018-07-30 19:12:26,442 - INFO - launcher: Required checks passed.
+[71.004152298] 2018-07-30 19:12:26,442 - INFO - launcher: Optional checks passed.
+[72.004079819] 2018-07-30 19:12:26,443 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[7.1694099903106689] 2018-07-30 19:12:33,540 - WARNING - musicbot.config | In config.py::MainThread(105860), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[7.1704101562500000] 2018-07-30 19:12:33,541 - INFO - musicbot.config | In config.py::MainThread(105860), line 123 in run_checks: Using i18n: config/i18n/en.json
+[7.1884112358093262] 2018-07-30 19:12:33,559 - DEBUG - musicbot.json | In json.py::MainThread(105860), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[7.7804450988769531] 2018-07-30 19:12:34,151 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 227 in _setup_logging: Set logging level to INFO
+[7.7804450988769531] 2018-07-30 19:12:34,151 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 84 in __init__: Starting MusicBot 1.9.7
+[7.7804450988769531] 2018-07-30 19:12:34,151 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 90 in __init__: Loaded autoplaylist with 2531 entries
+[8.0644612312316895] 2018-07-30 19:12:34,435 - DEBUG - musicbot.spotify | In spotify.py::MainThread(105860), line 70 in get_token: Created a new access token: {'token_type': 'Bearer', 'access_token': 'BQDjp3Rn6FKHOnkl7cqVbXV69OhDM7KAy0CB6UYdxNYvNgUNwp4XAb7xMm3myLytQxa0ufPY8OfOxSmzd8w', 'expires_at': 1532995954, 'scope': '', 'expires_in': 3600}
+[8.0644612312316895] 2018-07-30 19:12:34,435 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 115 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[11.7926745414733887] 2018-07-30 19:12:38,164 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 1074 in on_ready: Connection established, ready to go.
+[11.7926745414733887] 2018-07-30 19:12:38,164 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 339 in _cache_app_info: Caching app info
+[11.8506779670715332] 2018-07-30 19:12:38,222 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[11.8516778945922852] 2018-07-30 19:12:38,223 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 905 in _scheck_server_permissions: Checking server permissions
+[11.8516778945922852] 2018-07-30 19:12:38,223 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[11.8516778945922852] 2018-07-30 19:12:38,223 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 913 in _scheck_configs: Validating config
+[11.8516778945922852] 2018-07-30 19:12:38,223 - DEBUG - musicbot.config | In config.py::MainThread(105860), line 212 in async_validate: Validating options...
+[11.8516778945922852] 2018-07-30 19:12:38,223 - DEBUG - musicbot.config | In config.py::MainThread(105860), line 226 in async_validate: Acquired owner id via API
+[11.8516778945922852] 2018-07-30 19:12:38,223 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 916 in _scheck_configs: Validating permissions config
+[11.8516778945922852] 2018-07-30 19:12:38,223 - DEBUG - musicbot.permissions | In permissions.py::MainThread(105860), line 64 in async_validate: Validating permissions...
+[11.8516778945922852] 2018-07-30 19:12:38,223 - DEBUG - musicbot.permissions | In permissions.py::MainThread(105860), line 68 in async_validate: Fixing automatic owner group
+[11.8526780605316162] 2018-07-30 19:12:38,224 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 1091 in on_ready: Connected: 473624493563052052/iTunes#5493
+[11.8526780605316162] 2018-07-30 19:12:38,224 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 1099 in on_ready: Owner:     211239330528624641/coneve1414#7428
+
+[11.8536779880523682] 2018-07-30 19:12:38,225 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 1102 in on_ready: Server List:
+[11.8536779880523682] 2018-07-30 19:12:38,225 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 1105 in on_ready:  - CowCapital&FarmMines Bot Development
+[11.8546781539916992] 2018-07-30 19:12:38,226 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 1151 in on_ready: Not bound to any text channels
+[11.8546781539916992] 2018-07-30 19:12:38,226 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 1177 in on_ready: Not autojoining any voice channels
+[25.0874350070953369] 2018-07-30 19:12:51,458 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 3012 in on_server_join: Bot has been joined server: CowCapital&FarmMines
+[25.0904350280761719] 2018-07-30 19:12:51,461 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 3025 in on_server_join: Creating data folder for server 426971637997633558
+[84.6278405189514160] 2018-07-30 19:13:50,999 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !help
+[92.4842898845672607] 2018-07-30 19:13:58,855 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !joinserver
+[103.1559002399444580] 2018-07-30 19:14:09,527 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines Bot Development/General -> [CONNECT, MUTE]
+[121.8559696674346924] 2018-07-30 19:14:28,227 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !play Sound Of Silence
+[121.8569698333740234] 2018-07-30 19:14:28,228 - ERROR - musicbot.bot | In bot.py::MainThread(105860), line 2863 in on_message: Error in play: CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+Traceback (most recent call last):
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 2762, in on_message
+    handler_kwargs['player'] = await self.get_player(message.channel)
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 578, in get_player
+    'Use %ssummon to summon it to your voice channel.' % self.config.command_prefix)
+musicbot.exceptions.CommandError: The bot is not in a voice channel.  Use !summon to summon it to your voice channel.
+[126.9182593822479248] 2018-07-30 19:14:33,289 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !summon
+[126.9182593822479248] 2018-07-30 19:14:33,289 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2019 in cmd_summon: Joining CowCapital&FarmMines Bot Development/General
+[126.9192593097686768] 2018-07-30 19:14:33,290 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 452 in get_voice_client: Connection attempt 1 to General
+[126.9192593097686768] 2018-07-30 19:14:33,290 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[126.9192593097686768] 2018-07-30 19:14:33,290 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[126.9202594757080078] 2018-07-30 19:14:33,291 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[127.1122703552246094] 2018-07-30 19:14:33,483 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 473624493563052052/iTunes#5493 on CowCapital&FarmMines Bot Development/General -> [JOIN, CONNECT]
+[127.1122703552246094] 2018-07-30 19:14:33,483 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 473624493563052052/iTunes#5493 has joined CowCapital&FarmMines Bot Development/General
+[127.1132705211639404] 2018-07-30 19:14:33,484 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[127.1132705211639404] 2018-07-30 19:14:33,484 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[133.5656394958496094] 2018-07-30 19:14:39,937 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !play Disturbed Sound of Silence
+[134.4136881828308105] 2018-07-30 19:14:40,785 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[134.4146881103515625] 2018-07-30 19:14:40,786 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 478 in get_voice_client: Connected in 7.5s
+[134.4146881103515625] 2018-07-30 19:14:40,786 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 479 in get_voice_client: Connected to CowCapital&FarmMines Bot Development/General
+[134.4156882762908936] 2018-07-30 19:14:40,787 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 679 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[134.4246885776519775] 2018-07-30 19:14:40,796 - VOICEDEBUG - musicbot.player | In player.py::MainThread(105860), line 373 in websocket_check: Starting websocket check loop for CowCapital&FarmMines Bot Development
+[135.1977329254150391] 2018-07-30 19:14:41,569 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 1517 in cmd_play: {'_type': 'url', 'webpage_url': 'Disturbed Sound of Silence', 'extractor': 'generic', 'ie_key': None, 'url': 'ytsearch:Disturbed Sound of Silence', 'extractor_key': 'Generic', 'webpage_url_basename': 'Disturbed Sound of Silence'}
+[135.6777603626251221] 2018-07-30 19:14:42,049 - ERROR - musicbot.bot | In bot.py::MainThread(105860), line 701 in on_player_finished_playing: Error processing "https://youtube.com/watch?v=fBQxsQlPDkU": ERROR: This video is unavailable.
+[135.6787602901458740] 2018-07-30 19:14:42,050 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 352 in remove_from_autoplaylist: Removing unplayable song from autoplaylist: https://youtube.com/watch?v=fBQxsQlPDkU
+[135.6797604560852051] 2018-07-30 19:14:42,051 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 366 in remove_from_autoplaylist: Updating autoplaylist
+[137.7688798904418945] 2018-07-30 19:14:44,140 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[137.7718801498413086] 2018-07-30 19:14:44,143 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 220 in _really_download: Download started: https://youtube.com/watch?v=0b_9VQcnQZY
+[139.5559821128845215] 2018-07-30 19:14:45,927 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 446458937756090380
+[139.5839836597442627] 2018-07-30 19:14:45,955 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 230 in _really_download: Download complete: https://youtube.com/watch?v=0b_9VQcnQZY
+[139.7779948711395264] 2018-07-30 19:14:46,149 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[139.7779948711395264] 2018-07-30 19:14:46,149 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for audio_cache\youtube-0b_9VQcnQZY-Hilltop_Hoods_-_Fifty_in_Five_Previously_Unreleased_Filmclip.webm
+[139.7779948711395264] 2018-07-30 19:14:46,149 - FFMPEG - musicbot.player | In player.py::MainThread(105860), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-0b_9VQcnQZY-Hilltop_Hoods_-_Fifty_in_Five_Previously_Unreleased_Filmclip.webm
+[140.1630167961120605] 2018-07-30 19:14:46,534 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 220 in _really_download: Download started: https://www.youtube.com/watch?v=u9Dg-g7t2l4
+[140.1640169620513916] 2018-07-30 19:14:46,535 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 446458937756090380
+[142.0021221637725830] 2018-07-30 19:14:48,373 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 230 in _really_download: Download complete: https://www.youtube.com/watch?v=u9Dg-g7t2l4
+[159.9611492156982422] 2018-07-30 19:15:06,332 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !skip
+[159.9831504821777344] 2018-07-30 19:15:06,354 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for audio_cache\youtube-u9Dg-g7t2l4-Disturbed_-_The_Sound_Of_Silence_Official_Music_Video.webm
+[159.9831504821777344] 2018-07-30 19:15:06,354 - FFMPEG - musicbot.player | In player.py::MainThread(105860), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-u9Dg-g7t2l4-Disturbed_-_The_Sound_Of_Silence_Official_Music_Video.webm
+[160.0001513957977295] 2018-07-30 19:15:06,371 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 446458937756090380
+[160.0011515617370605] 2018-07-30 19:15:06,372 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 446458937756090380
+[323.9445285797119141] 2018-07-30 19:17:50,315 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines Bot Development/General -> [LEAVE, DISCONNECT]
+[323.9445285797119141] 2018-07-30 19:17:50,315 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 211239330528624641/coneve1414#7428 has left CowCapital&FarmMines Bot Development/General
+[323.9455287456512451] 2018-07-30 19:17:50,316 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2987 in on_voice_state_update: Pausing in CowCapital&FarmMines Bot Development/General (empty channel)
+[323.9465286731719971] 2018-07-30 19:17:50,317 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines/Tech's Music 1 -> [CONNECT, MUTE]
+[327.5357339382171631] 2018-07-30 19:17:53,907 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !summon
+[327.5367341041564941] 2018-07-30 19:17:53,908 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2019 in cmd_summon: Joining CowCapital&FarmMines/Tech's Music 1
+[327.5367341041564941] 2018-07-30 19:17:53,908 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 452 in get_voice_client: Connection attempt 1 to Tech's Music 1
+[327.5367341041564941] 2018-07-30 19:17:53,908 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[327.5377340316772461] 2018-07-30 19:17:53,909 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[327.5377340316772461] 2018-07-30 19:17:53,909 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[327.6237390041351318] 2018-07-30 19:17:53,995 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 473624493563052052/iTunes#5493 on CowCapital&FarmMines/Tech's Music 1 -> [JOIN, CONNECT]
+[327.6237390041351318] 2018-07-30 19:17:53,995 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 473624493563052052/iTunes#5493 has joined CowCapital&FarmMines/Tech's Music 1
+[327.6247391700744629] 2018-07-30 19:17:53,996 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[327.8397514820098877] 2018-07-30 19:17:54,211 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[328.0687644481658936] 2018-07-30 19:17:54,440 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[328.0687644481658936] 2018-07-30 19:17:54,440 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 478 in get_voice_client: Connected in 0.5s
+[328.0697646141052246] 2018-07-30 19:17:54,441 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 479 in get_voice_client: Connected to CowCapital&FarmMines/Tech's Music 1
+[328.0707645416259766] 2018-07-30 19:17:54,442 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 679 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[328.0737648010253906] 2018-07-30 19:17:54,445 - VOICEDEBUG - musicbot.player | In player.py::MainThread(105860), line 373 in websocket_check: Starting websocket check loop for CowCapital&FarmMines
+[330.0638785362243652] 2018-07-30 19:17:56,435 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[330.0648787021636963] 2018-07-30 19:17:56,436 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 220 in _really_download: Download started: https://youtube.com/watch?v=2MG74eZfkJ4
+[332.0129899978637695] 2018-07-30 19:17:58,384 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 230 in _really_download: Download complete: https://youtube.com/watch?v=2MG74eZfkJ4
+[332.0669932365417480] 2018-07-30 19:17:58,438 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for audio_cache\youtube-2MG74eZfkJ4-Omar_Varela_-_Inner_Power.webm
+[332.0669932365417480] 2018-07-30 19:17:58,438 - FFMPEG - musicbot.player | In player.py::MainThread(105860), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-2MG74eZfkJ4-Omar_Varela_-_Inner_Power.webm
+[332.0799939632415771] 2018-07-30 19:17:58,451 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[337.0452778339385986] 2018-07-30 19:18:03,416 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !help
+[343.2756342887878418] 2018-07-30 19:18:09,647 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !queue
+[347.2328605651855469] 2018-07-30 19:18:13,604 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !skip
+[349.3419811725616455] 2018-07-30 19:18:15,713 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[349.3419811725616455] 2018-07-30 19:18:15,713 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 220 in _really_download: Download started: https://youtube.com/watch?v=nUf07IdSPFQ
+[351.3400955200195312] 2018-07-30 19:18:17,711 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[351.5011048316955566] 2018-07-30 19:18:17,872 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option
+[351.6371126174926758] 2018-07-30 19:18:18,008 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 230 in _really_download: Download complete: https://youtube.com/watch?v=nUf07IdSPFQ
+[351.6401126384735107] 2018-07-30 19:18:18,011 - FFMPEG - musicbot.player | In player.py::MainThread(105860), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-nUf07IdSPFQ-Zelda_Link_s_Awakening_Music_-_Southern_Shrine.m4a
+[351.6481132507324219] 2018-07-30 19:18:18,019 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[371.4662466049194336] 2018-07-30 19:18:37,837 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !skip
+[374.6444284915924072] 2018-07-30 19:18:41,015 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[374.6444284915924072] 2018-07-30 19:18:41,015 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 220 in _really_download: Download started: https://youtube.com/watch?v=56m-t2PeKg8
+[376.6525433063507080] 2018-07-30 19:18:43,024 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[379.1506862640380859] 2018-07-30 19:18:45,522 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 230 in _really_download: Download complete: https://youtube.com/watch?v=56m-t2PeKg8
+[379.1536862850189209] 2018-07-30 19:18:45,525 - FFMPEG - musicbot.player | In player.py::MainThread(105860), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-56m-t2PeKg8-Michael_Ray_-_Kiss_You_In_The_Morning_Official_Video.webm
+[379.1616868972778320] 2018-07-30 19:18:45,533 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[382.0058493614196777] 2018-07-30 19:18:48,377 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option autoplaylist n
+[388.5222222805023193] 2018-07-30 19:18:54,893 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines/Tech's Music 1 -> [LEAVE, DISCONNECT]
+[388.5222222805023193] 2018-07-30 19:18:54,893 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 211239330528624641/coneve1414#7428 has left CowCapital&FarmMines/Tech's Music 1
+[388.5262224674224854] 2018-07-30 19:18:54,897 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2987 in on_voice_state_update: Pausing in CowCapital&FarmMines/Tech's Music 1 (empty channel)
+[388.5292227268218994] 2018-07-30 19:18:54,900 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines Bot Development/General -> [JOIN, CONNECT]
+[388.5292227268218994] 2018-07-30 19:18:54,900 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 211239330528624641/coneve1414#7428 has joined CowCapital&FarmMines Bot Development/General
+[388.5302226543426514] 2018-07-30 19:18:54,901 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2977 in on_voice_state_update: Unpausing in CowCapital&FarmMines Bot Development/General
+[392.1354289054870605] 2018-07-30 19:18:58,506 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines Bot Development/General -> [LEAVE, DISCONNECT]
+[392.1354289054870605] 2018-07-30 19:18:58,506 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 211239330528624641/coneve1414#7428 has left CowCapital&FarmMines Bot Development/General
+[392.1374289989471436] 2018-07-30 19:18:58,508 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2987 in on_voice_state_update: Pausing in CowCapital&FarmMines Bot Development/General (empty channel)
+[392.1384291648864746] 2018-07-30 19:18:58,509 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines/Tech's Music 1 -> [JOIN, CONNECT]
+[392.1394290924072266] 2018-07-30 19:18:58,510 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 211239330528624641/coneve1414#7428 has joined CowCapital&FarmMines/Tech's Music 1
+[392.1404292583465576] 2018-07-30 19:18:58,511 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2977 in on_voice_state_update: Unpausing in CowCapital&FarmMines/Tech's Music 1
+[400.9319319725036621] 2018-07-30 19:19:07,303 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option autoplaylist y
+[400.9369323253631592] 2018-07-30 19:19:07,308 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[410.0074510574340820] 2018-07-30 19:19:16,378 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !pause
+[418.1579172611236572] 2018-07-30 19:19:24,529 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !help
+[422.8621864318847656] 2018-07-30 19:19:29,233 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option
+[432.8527576923370361] 2018-07-30 19:19:39,224 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option Delete_Messages n
+[432.8577580451965332] 2018-07-30 19:19:39,229 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2309 in cmd_option: Setting attribute delete_messages
+[432.8587582111358643] 2018-07-30 19:19:39,230 - WARNING - musicbot.bot | In bot.py::MainThread(105860), line 2313 in cmd_option: Option overriden for this session: The option delete_messages is now disabled.
+[447.5145964622497559] 2018-07-30 19:19:53,886 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines/Tech's Music 1 -> [LEAVE, DISCONNECT]
+[447.5145964622497559] 2018-07-30 19:19:53,886 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 211239330528624641/coneve1414#7428 has left CowCapital&FarmMines/Tech's Music 1
+[447.5705995559692383] 2018-07-30 19:19:53,942 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines Bot Development/General -> [JOIN, CONNECT]
+[447.5705995559692383] 2018-07-30 19:19:53,942 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 211239330528624641/coneve1414#7428 has joined CowCapital&FarmMines Bot Development/General
+[447.5715997219085693] 2018-07-30 19:19:53,943 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2977 in on_voice_state_update: Unpausing in CowCapital&FarmMines Bot Development/General
+[463.4145059585571289] 2018-07-30 19:20:09,785 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines Bot Development/General -> [LEAVE, DISCONNECT]
+[463.4145059585571289] 2018-07-30 19:20:09,785 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 211239330528624641/coneve1414#7428 has left CowCapital&FarmMines Bot Development/General
+[463.4225063323974609] 2018-07-30 19:20:09,793 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2987 in on_voice_state_update: Pausing in CowCapital&FarmMines Bot Development/General (empty channel)
+[463.4245064258575439] 2018-07-30 19:20:09,795 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines/Tech's Music 1 -> [JOIN, CONNECT]
+[463.4255063533782959] 2018-07-30 19:20:09,796 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 211239330528624641/coneve1414#7428 has joined CowCapital&FarmMines/Tech's Music 1
+[471.2479538917541504] 2018-07-30 19:20:17,619 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines Bot Development/General -> [JOIN, CONNECT]
+[471.2479538917541504] 2018-07-30 19:20:17,619 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 211239330528624641/coneve1414#7428 has joined CowCapital&FarmMines Bot Development/General
+[471.2499539852142334] 2018-07-30 19:20:17,621 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2977 in on_voice_state_update: Unpausing in CowCapital&FarmMines Bot Development/General
+[471.2499539852142334] 2018-07-30 19:20:17,621 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines/Tech's Music 1 -> [LEAVE, DISCONNECT]
+[471.2499539852142334] 2018-07-30 19:20:17,621 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 211239330528624641/coneve1414#7428 has left CowCapital&FarmMines/Tech's Music 1
+[549.7154419422149658] 2018-07-30 19:21:36,086 - ERROR - musicbot.bot | In bot.py::MainThread(105860), line 701 in on_player_finished_playing: Error processing "https://youtube.com/watch?v=DldxgV41SYM": ERROR: This video is unavailable.
+[549.7164418697357178] 2018-07-30 19:21:36,087 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 352 in remove_from_autoplaylist: Removing unplayable song from autoplaylist: https://youtube.com/watch?v=DldxgV41SYM
+[549.7174420356750488] 2018-07-30 19:21:36,088 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 366 in remove_from_autoplaylist: Updating autoplaylist
+[551.7395577430725098] 2018-07-30 19:21:38,111 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[551.7395577430725098] 2018-07-30 19:21:38,111 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 220 in _really_download: Download started: https://youtube.com/watch?v=XPACdaj3t0Q
+[553.7466726303100586] 2018-07-30 19:21:40,118 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[556.3198196887969971] 2018-07-30 19:21:42,691 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 230 in _really_download: Download complete: https://youtube.com/watch?v=XPACdaj3t0Q
+[556.3228199481964111] 2018-07-30 19:21:42,694 - FFMPEG - musicbot.player | In player.py::MainThread(105860), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-XPACdaj3t0Q-Dizzy_Gillespie_-_All_The_Things_You_Are.m4a
+[556.3298201560974121] 2018-07-30 19:21:42,701 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 446458937756090380
+[575.3759095668792725] 2018-07-30 19:22:01,747 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option
+[585.4464857578277588] 2018-07-30 19:22:11,817 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option Autoplaylist false
+[585.4524860382080078] 2018-07-30 19:22:11,823 - ERROR - musicbot.bot | In bot.py::MainThread(105860), line 2863 in on_message: Error in option: CommandError: The value provided was not valid.
+Traceback (most recent call last):
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 2841, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 138, in wrapper
+    return await func(self, *args, **kwargs)
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 2303, in cmd_option
+    raise exceptions.CommandError(self.str.get('cmd-option-invalid-value', 'The value provided was not valid.'))
+musicbot.exceptions.CommandError: The value provided was not valid.
+[596.4791166782379150] 2018-07-30 19:22:22,850 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option autoplaylist no
+[596.4831168651580811] 2018-07-30 19:22:22,854 - ERROR - musicbot.bot | In bot.py::MainThread(105860), line 2863 in on_message: Error in option: CommandError: The value provided was not valid.
+Traceback (most recent call last):
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 2841, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 138, in wrapper
+    return await func(self, *args, **kwargs)
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 2303, in cmd_option
+    raise exceptions.CommandError(self.str.get('cmd-option-invalid-value', 'The value provided was not valid.'))
+musicbot.exceptions.CommandError: The value provided was not valid.
+[616.3962559700012207] 2018-07-30 19:22:42,767 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option auto_playlist_random off
+[616.4012560844421387] 2018-07-30 19:22:42,772 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2309 in cmd_option: Setting attribute auto_playlist_random
+[616.4012560844421387] 2018-07-30 19:22:42,772 - WARNING - musicbot.bot | In bot.py::MainThread(105860), line 2313 in cmd_option: Option overriden for this session: The option auto_playlist_random is now disabled.
+[621.0995249748229980] 2018-07-30 19:22:47,470 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !skip
+[625.7947933673858643] 2018-07-30 19:22:52,166 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[625.7957935333251953] 2018-07-30 19:22:52,167 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 220 in _really_download: Download started: https://youtube.com/watch?v=cOy222ay7nc
+[627.7929077148437500] 2018-07-30 19:22:54,164 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[628.1719293594360352] 2018-07-30 19:22:54,543 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 230 in _really_download: Download complete: https://youtube.com/watch?v=cOy222ay7nc
+[628.1759297847747803] 2018-07-30 19:22:54,547 - FFMPEG - musicbot.player | In player.py::MainThread(105860), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-cOy222ay7nc-Crywolf_-_Shrike.webm
+[628.1849300861358643] 2018-07-30 19:22:54,556 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 446458937756090380
+[632.6531858444213867] 2018-07-30 19:22:59,024 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !play Disturbed Sound of Silence
+[632.7551915645599365] 2018-07-30 19:22:59,126 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 1517 in cmd_play: {'_type': 'url', 'webpage_url': 'Disturbed Sound of Silence', 'extractor': 'generic', 'ie_key': None, 'url': 'ytsearch:Disturbed Sound of Silence', 'extractor_key': 'Generic', 'webpage_url_basename': 'Disturbed Sound of Silence'}
+[639.9966058731079102] 2018-07-30 19:23:06,368 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[639.9976058006286621] 2018-07-30 19:23:06,369 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 446458937756090380
+[639.9996058940887451] 2018-07-30 19:23:06,371 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 196 in _download: Download cached: https://www.youtube.com/watch?v=u9Dg-g7t2l4
+[643.2877938747406006] 2018-07-30 19:23:09,659 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !help
+[658.7926807403564453] 2018-07-30 19:23:25,164 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option
+[672.8914871215820312] 2018-07-30 19:23:39,262 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option autoplaylist false
+[672.8974876403808594] 2018-07-30 19:23:39,268 - ERROR - musicbot.bot | In bot.py::MainThread(105860), line 2863 in on_message: Error in option: CommandError: The value provided was not valid.
+Traceback (most recent call last):
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 2841, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 138, in wrapper
+    return await func(self, *args, **kwargs)
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 2303, in cmd_option
+    raise exceptions.CommandError(self.str.get('cmd-option-invalid-value', 'The value provided was not valid.'))
+musicbot.exceptions.CommandError: The value provided was not valid.
+[679.5378673076629639] 2018-07-30 19:23:45,909 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option autoplaylist n
+[702.5191819667816162] 2018-07-30 19:24:08,890 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option auto_playlist_random n
+[702.5251822471618652] 2018-07-30 19:24:08,896 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2309 in cmd_option: Setting attribute auto_playlist_random
+[702.5251822471618652] 2018-07-30 19:24:08,896 - WARNING - musicbot.bot | In bot.py::MainThread(105860), line 2313 in cmd_option: Option overriden for this session: The option auto_playlist_random is now disabled.
+[705.8473720550537109] 2018-07-30 19:24:12,218 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !skip
+[705.8653731346130371] 2018-07-30 19:24:12,236 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for audio_cache\youtube-u9Dg-g7t2l4-Disturbed_-_The_Sound_Of_Silence_Official_Music_Video.webm
+[705.8663733005523682] 2018-07-30 19:24:12,237 - FFMPEG - musicbot.player | In player.py::MainThread(105860), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-u9Dg-g7t2l4-Disturbed_-_The_Sound_Of_Silence_Official_Music_Video.webm
+[705.8743736743927002] 2018-07-30 19:24:12,245 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 446458937756090380
+[705.8753738403320312] 2018-07-30 19:24:12,246 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 446458937756090380
+[736.4301214218139648] 2018-07-30 19:24:42,801 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !help
+[816.9577274322509766] 2018-07-30 19:26:03,329 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines Bot Development/General -> [LEAVE, DISCONNECT]
+[816.9577274322509766] 2018-07-30 19:26:03,329 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 211239330528624641/coneve1414#7428 has left CowCapital&FarmMines Bot Development/General
+[816.9587273597717285] 2018-07-30 19:26:03,330 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2987 in on_voice_state_update: Pausing in CowCapital&FarmMines Bot Development/General (empty channel)
+[816.9597275257110596] 2018-07-30 19:26:03,331 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 211239330528624641/coneve1414#7428 on CowCapital&FarmMines/Music -> [CONNECT]
+[821.5299887657165527] 2018-07-30 19:26:07,901 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !summon
+[821.5749914646148682] 2018-07-30 19:26:07,946 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 473624493563052052/iTunes#5493 on CowCapital&FarmMines/Music -> [JOIN, MOVE]
+[821.5749914646148682] 2018-07-30 19:26:07,946 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 473624493563052052/iTunes#5493 has joined CowCapital&FarmMines/Music
+[825.7662310600280762] 2018-07-30 19:26:12,137 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !play
+[836.3918387889862061] 2018-07-30 19:26:22,763 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !disconnect
+[836.4608428478240967] 2018-07-30 19:26:22,832 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 473624493563052052/iTunes#5493 on CowCapital&FarmMines Bot Development/General -> [DISCONNECT]
+[848.7435452938079834] 2018-07-30 19:26:35,115 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !play Sound of Silence Disturbed
+[848.8075489997863770] 2018-07-30 19:26:35,179 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 1517 in cmd_play: {'_type': 'url', 'webpage_url': 'Sound of Silence Disturbed', 'extractor': 'generic', 'ie_key': None, 'url': 'ytsearch:Sound of Silence Disturbed', 'extractor_key': 'Generic', 'webpage_url_basename': 'Sound of Silence Disturbed'}
+[852.8787817955017090] 2018-07-30 19:26:39,250 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[852.8797819614410400] 2018-07-30 19:26:39,251 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[852.8807818889617920] 2018-07-30 19:26:39,252 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 196 in _download: Download cached: https://www.youtube.com/watch?v=u9Dg-g7t2l4
+[868.6856858730316162] 2018-07-30 19:26:55,057 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !queue
+[874.1950011253356934] 2018-07-30 19:27:00,566 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !skip
+[874.2360033988952637] 2018-07-30 19:27:00,607 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for audio_cache\youtube-u9Dg-g7t2l4-Disturbed_-_The_Sound_Of_Silence_Official_Music_Video.webm
+[874.2360033988952637] 2018-07-30 19:27:00,607 - FFMPEG - musicbot.player | In player.py::MainThread(105860), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-u9Dg-g7t2l4-Disturbed_-_The_Sound_Of_Silence_Official_Music_Video.webm
+[874.2480041980743408] 2018-07-30 19:27:00,619 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[874.2540044784545898] 2018-07-30 19:27:00,625 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[887.0057339668273926] 2018-07-30 19:27:13,377 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option
+[897.2813215255737305] 2018-07-30 19:27:23,652 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option autoplaylist y
+[897.2853217124938965] 2018-07-30 19:27:23,656 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[904.0457084178924561] 2018-07-30 19:27:30,417 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !help
+[913.6412572860717773] 2018-07-30 19:27:40,012 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !resume
+[913.6412572860717773] 2018-07-30 19:27:40,012 - ERROR - musicbot.bot | In bot.py::MainThread(105860), line 2863 in on_message: Error in resume: CommandError: Player is not paused.
+Traceback (most recent call last):
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 2841, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 2059, in cmd_resume
+    raise exceptions.CommandError(self.str.get('cmd-resume-none', 'Player is not paused.'), expire_in=30)
+musicbot.exceptions.CommandError: Player is not paused.
+[921.7707223892211914] 2018-07-30 19:27:48,142 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !disconnect
+[921.8387262821197510] 2018-07-30 19:27:48,210 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 473624493563052052/iTunes#5493 on CowCapital&FarmMines/Music -> [DISCONNECT]
+[924.7638933658599854] 2018-07-30 19:27:51,135 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !summon
+[924.7638933658599854] 2018-07-30 19:27:51,135 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2019 in cmd_summon: Joining CowCapital&FarmMines/Music
+[924.7648935317993164] 2018-07-30 19:27:51,136 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 452 in get_voice_client: Connection attempt 1 to Music
+[924.7648935317993164] 2018-07-30 19:27:51,136 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[924.7648935317993164] 2018-07-30 19:27:51,136 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[924.7658934593200684] 2018-07-30 19:27:51,137 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[924.8378977775573730] 2018-07-30 19:27:51,209 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 473624493563052052/iTunes#5493 on CowCapital&FarmMines/Music -> [JOIN, CONNECT]
+[924.8378977775573730] 2018-07-30 19:27:51,209 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 473624493563052052/iTunes#5493 has joined CowCapital&FarmMines/Music
+[924.8388977050781250] 2018-07-30 19:27:51,210 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[924.8738996982574463] 2018-07-30 19:27:51,245 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[925.1219139099121094] 2018-07-30 19:27:51,493 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[925.1219139099121094] 2018-07-30 19:27:51,493 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 478 in get_voice_client: Connected in 0.4s
+[925.1219139099121094] 2018-07-30 19:27:51,493 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 479 in get_voice_client: Connected to CowCapital&FarmMines/Music
+[925.1229140758514404] 2018-07-30 19:27:51,494 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 849 in deserialize_queue: Deserializing queue for 426971637997633558
+[925.2119190692901611] 2018-07-30 19:27:51,583 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 570 in get_player: Created player via deserialization for server 426971637997633558 with 1 entries
+[925.2119190692901611] 2018-07-30 19:27:51,583 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[925.2139191627502441] 2018-07-30 19:27:51,585 - VOICEDEBUG - musicbot.player | In player.py::MainThread(105860), line 373 in websocket_check: Starting websocket check loop for CowCapital&FarmMines
+[925.2139191627502441] 2018-07-30 19:27:51,585 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for audio_cache\youtube-u9Dg-g7t2l4-Disturbed_-_The_Sound_Of_Silence_Official_Music_Video.webm
+[925.2139191627502441] 2018-07-30 19:27:51,585 - FFMPEG - musicbot.player | In player.py::MainThread(105860), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-u9Dg-g7t2l4-Disturbed_-_The_Sound_Of_Silence_Official_Music_Video.webm
+[925.2209196090698242] 2018-07-30 19:27:51,592 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[1063.1748101711273193] 2018-07-30 19:30:09,546 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 155149108183695360/Dyno#3861: !summon
+[1063.1758100986480713] 2018-07-30 19:30:09,547 - ERROR - musicbot.bot | In bot.py::MainThread(105860), line 2863 in on_message: Error in summon: PermissionsError: You don't have permission to use that command.
+Reason: This command is not enabled for your group (Default).
+Traceback (most recent call last):
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 2816, in on_message
+    expire_in=20)
+musicbot.exceptions.PermissionsError: This command is not enabled for your group (Default).
+[1184.3807427883148193] 2018-07-30 19:32:10,752 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 679 in on_player_finished_playing: No content in current autoplaylist. Filling with new music...
+[1186.3018524646759033] 2018-07-30 19:32:12,673 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[1186.3028526306152344] 2018-07-30 19:32:12,674 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 220 in _really_download: Download started: https://youtube.com/watch?v=0eiJsI4kVJs
+[1188.2969667911529541] 2018-07-30 19:32:14,668 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[1188.4869775772094727] 2018-07-30 19:32:14,858 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 230 in _really_download: Download complete: https://youtube.com/watch?v=0eiJsI4kVJs
+[1188.4939780235290527] 2018-07-30 19:32:14,865 - FFMPEG - musicbot.player | In player.py::MainThread(105860), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-0eiJsI4kVJs-G_Eazy_-_You_Got_Me_Audio.webm
+[1188.5029785633087158] 2018-07-30 19:32:14,874 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[1279.8202016353607178] 2018-07-30 19:33:46,191 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option auoplaylist false
+[1279.8272020816802979] 2018-07-30 19:33:46,198 - ERROR - musicbot.bot | In bot.py::MainThread(105860), line 2863 in on_message: Error in option: CommandError: The parameters provided were invalid.
+Traceback (most recent call last):
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 2841, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 138, in wrapper
+    return await func(self, *args, **kwargs)
+  File "C:\Users\customer\MusicBot\musicbot\bot.py", line 2316, in cmd_option
+    raise exceptions.CommandError(self.str.get('cmd-option-invalid-param' ,'The parameters provided were invalid.'))
+musicbot.exceptions.CommandError: The parameters provided were invalid.
+[1288.8337171077728271] 2018-07-30 19:33:55,205 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !option autoplaylist n
+[1292.7129390239715576] 2018-07-30 19:33:59,084 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !disconnect
+[1292.7799427509307861] 2018-07-30 19:33:59,151 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 473624493563052052/iTunes#5493 on CowCapital&FarmMines/Music -> [DISCONNECT]
+[1296.3801488876342773] 2018-07-30 19:34:02,751 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !summon
+[1296.3811488151550293] 2018-07-30 19:34:02,752 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2019 in cmd_summon: Joining CowCapital&FarmMines/Music
+[1296.3811488151550293] 2018-07-30 19:34:02,752 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 452 in get_voice_client: Connection attempt 1 to Music
+[1296.3821489810943604] 2018-07-30 19:34:02,753 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[1296.3821489810943604] 2018-07-30 19:34:02,753 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[1296.3821489810943604] 2018-07-30 19:34:02,753 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[1296.4201509952545166] 2018-07-30 19:34:02,791 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 473624493563052052/iTunes#5493 on CowCapital&FarmMines/Music -> [JOIN, CONNECT]
+[1296.4201509952545166] 2018-07-30 19:34:02,791 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2949 in on_voice_state_update: 473624493563052052/iTunes#5493 has joined CowCapital&FarmMines/Music
+[1296.4211511611938477] 2018-07-30 19:34:02,792 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[1296.4571530818939209] 2018-07-30 19:34:02,828 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[1299.2933154106140137] 2018-07-30 19:34:05,664 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[1299.2933154106140137] 2018-07-30 19:34:05,664 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 478 in get_voice_client: Connected in 2.9s
+[1299.2933154106140137] 2018-07-30 19:34:05,664 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 479 in get_voice_client: Connected to CowCapital&FarmMines/Music
+[1299.2943153381347656] 2018-07-30 19:34:05,665 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 849 in deserialize_queue: Deserializing queue for 426971637997633558
+[1299.3253171443939209] 2018-07-30 19:34:05,696 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 570 in get_player: Created player via deserialization for server 426971637997633558 with 1 entries
+[1299.3273172378540039] 2018-07-30 19:34:05,698 - VOICEDEBUG - musicbot.player | In player.py::MainThread(105860), line 373 in websocket_check: Starting websocket check loop for CowCapital&FarmMines
+[1299.3273172378540039] 2018-07-30 19:34:05,698 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for audio_cache\youtube-0eiJsI4kVJs-G_Eazy_-_You_Got_Me_Audio.webm
+[1299.3273172378540039] 2018-07-30 19:34:05,698 - FFMPEG - musicbot.player | In player.py::MainThread(105860), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-0eiJsI4kVJs-G_Eazy_-_You_Got_Me_Audio.webm
+[1299.3343176841735840] 2018-07-30 19:34:05,705 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[1302.3204884529113770] 2018-07-30 19:34:08,691 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !skip
+[1302.3414895534515381] 2018-07-30 19:34:08,712 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[1317.1053342819213867] 2018-07-30 19:34:23,476 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !play Disturbed Sound of SIlence
+[1317.1873388290405273] 2018-07-30 19:34:23,558 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 1517 in cmd_play: {'_type': 'url', 'webpage_url': 'Disturbed Sound of SIlence', 'extractor': 'generic', 'ie_key': None, 'url': 'ytsearch:Disturbed Sound of SIlence', 'extractor_key': 'Generic', 'webpage_url_basename': 'Disturbed Sound of SIlence'}
+[1323.8787214756011963] 2018-07-30 19:34:30,250 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for None
+[1323.8797216415405273] 2018-07-30 19:34:30,251 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[1323.8807215690612793] 2018-07-30 19:34:30,252 - INFO - musicbot.entry | In entry.py::MainThread(105860), line 196 in _download: Download cached: https://www.youtube.com/watch?v=u9Dg-g7t2l4
+[1325.8798360824584961] 2018-07-30 19:34:32,251 - DEBUG - musicbot.entry | In entry.py::MainThread(105860), line 54 in get_ready_future: Created future for audio_cache\youtube-u9Dg-g7t2l4-Disturbed_-_The_Sound_Of_Silence_Official_Music_Video.webm
+[1325.8798360824584961] 2018-07-30 19:34:32,251 - FFMPEG - musicbot.player | In player.py::MainThread(105860), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-u9Dg-g7t2l4-Disturbed_-_The_Sound_Of_Silence_Official_Music_Video.webm
+[1325.8858363628387451] 2018-07-30 19:34:32,257 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[1585.0466594696044922] 2018-07-30 19:38:51,418 - DEBUG - musicbot.bot | In bot.py::MainThread(105860), line 825 in serialize_queue: Serializing queue for 426971637997633558
+[1599.8065037727355957] 2018-07-30 19:39:06,177 - INFO - musicbot.bot | In bot.py::MainThread(105860), line 2734 in on_message: 211239330528624641/coneve1414#7428: !shutdown
+[1600.1415228843688965] 2018-07-30 19:39:06,512 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(105860), line 2938 in on_voice_state_update: Voice state update for 473624493563052052/iTunes#5493 on CowCapital&FarmMines/Music -> [DISCONNECT]
+[1600.149523258] launcher-INFO: All done.
